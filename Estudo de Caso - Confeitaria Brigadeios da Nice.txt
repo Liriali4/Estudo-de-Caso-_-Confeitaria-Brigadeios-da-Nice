@@ -1,0 +1,12 @@
+# Nota: A proprietária está apenas a considerar um sistema digital.
+
+# Passos:
+
+    1. Investigar se outros passaram pelo mesmos problemas, e como resolveram;
+    2. Observar o que causa o problema (demanda de pedidos);
+    3. Fazer a modelagem dos processos de negócios (BPMN);
+    4. Levantamento de requisitos (RF e RNF) e identificação das regras de negócios         (RN);
+    5. Descrever os Casos de Uso, mas neste passo é possível pular para o diagrama de caso de uso pois ele pode ser criado/desenvolvido a medida que os RF são definidos;
+
+
+

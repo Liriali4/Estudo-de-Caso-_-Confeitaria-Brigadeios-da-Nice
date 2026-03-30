@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0vkmkhq" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.45.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.8.0">
+  <bpmn:collaboration id="Collaboration_11v26n8">
+    <bpmn:participant id="Participant_1hy074g" name="Ca" processRef="Process_1h4s91i" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1h4s91i" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_0dqq6lv">
+      <bpmn:lane id="Lane_02vcrnk">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_10hbchj" />
+      <bpmn:lane id="Lane_0xdcz1t" />
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_11v26n8">
+      <bpmndi:BPMNShape id="Participant_1hy074g_di" bpmnElement="Participant_1hy074g" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1090" height="650" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_02vcrnk_di" bpmnElement="Lane_02vcrnk" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1060" height="210" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_10hbchj_di" bpmnElement="Lane_10hbchj" isHorizontal="true">
+        <dc:Bounds x="190" y="290" width="1060" height="256" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0xdcz1t_di" bpmnElement="Lane_0xdcz1t" isHorizontal="true">
+        <dc:Bounds x="190" y="546" width="1060" height="184" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="232" y="142" width="36" height="36" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
